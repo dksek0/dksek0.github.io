@@ -1,0 +1,12 @@
+@charset "utf-8";
+#footerWrap{min-width: 100%; position: relative; background: #888; color: #fff; text-align: center;}
+#footerWrap a{color: #fff;}
+.footerTopWrap{width: 100%; position: relative; border-bottom: 1px solid #fff; height: 70px; line-height: 70px; font-size: 15px;}
+.footer{width: 1600px; margin: 0 auto;}
+.footerMenu{width: 1060px; margin: 0 auto; font-size: 18px;}
+.footerMenu li{float: left; margin: 0 20px;}
+.footerMenu li a:hover{font-weight: 600;}
+
+.footerBottom{width: 1600px; margin: 0 auto; padding-bottom: 50px; line-height: 25px;}
+.footerLogo{width: 156px; height: 34px; margin: 50px auto; font-size: 0; background: url(../images/footer_logo.png) no-repeat 0 0;}
+.copyright{padding-top: 20px;}
