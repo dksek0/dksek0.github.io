@@ -1,0 +1,88 @@
+@charset "utf-8";
+@import url(reset.css);
+@import url(header.css);
+@import url(footer.css);
+#container{width: 100%;}
+.introwrap{width: 100%; height: 40px; background: #f1f1f1;}
+.intro{width: 1200px; margin: 0 auto; height: 40px; overflow: hidden;}
+.intro .intro_pageinfo{line-height: 40px; float: left; font-size: 14px; padding-left: 30px; background: url(../images/home.png) no-repeat 0 center;}
+.intro .intro_icon{overflow: hidden; float: right;}
+.intro .intro_icon li{float: left; margin-left: 8px;}
+.intro .intro_icon li a{display: block; margin-top: 5px;}
+
+.contentwrap{width: 1200px; margin:0 auto 30px auto;}
+.contents{overflow: hidden; width: 1200px;}
+.lnb{width: 220px; float: left; margin-right: 30px; }
+.lnb h2{width: 220px; height: 150px; background: url(../images/lnb_bg.gif); color: #fff; text-align: center; line-height: 150px; font-size: 25px;}
+.lnb .left_menu > li{font-weight: bold; line-height: 50px; border-bottom: 1px solid #d9d9d9; font-size: 15px;}
+.lnb .left_menu a{display: block; padding-left: 10px;}
+.lnb .left_menu .current{background: #d6d6d6;}
+
+.subContentWrap{float: left; width: 949px;}
+.content_tit{height: 149px; background: url(../images/sub_bg_3.gif) no-repeat right 0; border-bottom: 1px solid #d9d9d9;}
+.content_tit h3{padding: 95px 0 0 20px; font-size: 30px;}
+
+.subContent{width: 949px;}
+.keyboardWrap{background: url(../images/key_bg.png) no-repeat 50px center #f5f5f5; height: 150px; padding: 20px 0 20px 200px; position: relative; margin: 30px 0;}
+.keyboardT{font-size: 22px; color: #0058aa; font-weight: bold;}
+.keyboardT .k_blue{color: #00a0ff;}
+.keyboardC{font-size: 15px; line-height: 1.5; margin: 20px 0;}
+
+a.keyboardBtn{background: url(../images/login_bg.png) no-repeat 25px center #0058aa; width: 135px; height: 55px; display: block; text-align: center; line-height: 55px; padding-left: 15px; font-size: 15px; position: absolute; top: 35%; right: 30px; color: #fff;}
+
+.TouchEN{display: block; padding-top:20px;}
+
+.memberwrap{overflow: hidden;}
+.member{float: left; width: 377px; margin-left: 30px; border: 1px solid #d9d9d9; padding: 20px 40px; height: 270px;}
+.member:first-child{margin-left: 0;}
+.loginTit{text-align: center; font-size: 19px; margin-bottom: 20px;}
+.input_id, .input_pw{width: 370px; height: 30px; line-height: 30px; padding-left: 10px; margin-bottom: 8px;}
+.memberbtn{display: block; width: 382px; margin-top: 10px; background: #564f4f; color: #fff; padding: 10px 0;}
+.fam{background: #474e61;}
+.mem_text{margin: 10px 0; line-height: 1.5;}
+a.infobtn{display: block; width: 170px; padding: 10px 0; background: #474e61; color: #fff; margin-left: 15px; text-align: center;}
+.mem{float: left;}
+.j_btnWrap{margin-top: 25px;}
+
+
+
+.nonmemberLoginWrap{margin: 30px 0; border: 1px solid #d9d9d9; padding: 20px 40px;}
+.nonmem_info{margin-bottom: 15px; line-height: 1.5;}
+.nonmem_alert{padding-left: 15px; font-size: 12px; color: #555;}
+.nonmem_sub{font-size: 17px; padding: 40px 0 10px 0;}
+.terms{height: 150px; overflow:auto; background: #f1f1f1; border: 1px solid #d9d9d9; width: 847px; padding: 10px; line-height: 1.5; margin-bottom: 10px;}
+.terms .termsTit{font-size: 15px; padding-bottom: 15px;}
+.terms .terms_s{text-decoration: underline;}
+.terms dd{padding-left: 8px; background: url(../images/bg_list.png) no-repeat 2px 8px;}
+
+.cert_type_wrap{margin-top: 30px; border-top: 1px solid #d9d9d9; overflow: hidden;}
+.cert_type_box{float: left; width: 336px; margin-left: 30px; padding: 20px 40px 0 40px;}
+.cert_type_box:first-child{margin-left: 0;}
+.cert_type_box .cert_type_t{padding-left: 70px; height: 80px;}
+.cert_type_box .img_p{background: url(../images/smartphone.png) no-repeat 0 0;}
+.cert_type_box .img_g{background: url(../images/i-pin.PNG) no-repeat 10px 5px;}
+.box_t{font-size: 18px; font-weight: bold; padding-bottom: 10px;}
+.img_p .box_t{color: #e45a5e;}
+.img_g .box_t{color: #479b21;}
+.cert_type_box button{width: 336px; padding: 10px 0; color: #fff; font-weight: bold; font-size: 14px;}
+.cert_type_box .btn_p{background: #e45a5e;}
+.cert_type_box .btn_g{background: #479b21;}
+
+.solveBox{border: 1px solid #d9d9d9; padding: 20px 40px; overflow: hidden; text-align: center;}
+.solveBoxWrap{float: left; width: 433px; height: 115px;}
+.solveBoxWrap a{margin: 0 auto;}
+.loginTit + .solveBoxWrap{border-right: 1px solid #d9d9d9;}
+.solve_sub{font-size: 15px; line-height: 1.5;}
+.solve_type{display: block; margin: 10px auto; text-align: left; width: 170px;}
+
+.managerWrap{width: 849px; margin-top: 30px; background: #f1f1f1; border-bottom: 1px solid #fff; padding: 20px 50px;}
+.manager{overflow: hidden;}
+.manager dt{float: left;}
+.manager dd{float: left; padding: 0 20px; width: 35%; background: url(../images/bg_bar.png) no-repeat 10px 2px;}
+.termsa_red{color: red;}
+
+input[type="button"], input[type="submit"]{padding: 5px; margin: 0 2px; cursor: pointer;}
+.input_survey{border: 1px solid #797979; height: 25px; width: 730px; line-height: 25px; padding-left: 10px;}
+.survey{padding: 20px 50px; background: #f1f1f1;}
+.surveyTit{font-weight: bold; font-size: 15px;}
+.radio_input{margin: 15px 0;}

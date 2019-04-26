@@ -1,0 +1,290 @@
+@charset "utf-8";
+@import url(reset.css);
+@import url(header.css);
+@import url(footer.css);
+#container{position:relative;width: 100%;}
+
+/*상단 바로가기메뉴*/
+.introwrap_1{position:relative; overflow: hidden; width: 1200px; margin: 5px auto;}
+.introLeft{float: left; margin-right: 180px;}
+.introLeft li{float: left; padding-left: 15px; background: url(../images/bg_bar.png) no-repeat 8px 2px;}
+.introLeft li:first-child, .introMid li:first-child{padding-left: 0; background: none;}
+
+.introMid{float:left;}
+.introMid li{float: left; padding-left: 10px;}
+.introMid .introM_first{color: #ff0000;}
+
+.introRight{float: right;}
+.introRight li{float: left; margin-left: 15px;}
+.introRight a{padding-left: 15px; background: url(../images/introR_bg.png) no-repeat;}
+.introRight .introR_1{background-position: 0 0}
+.introRight .introR_2{background-position: 0 -16px;}
+.introRight .introR_3{background-position: 0 -36px;}
+
+
+
+/*좌측 상단 작은 배너*/
+.introwrap_2{position: relative; overflow: hidden; width: 1200px; margin: 20px auto;}
+.introBanner{float: left; width: 352px; height: 60px;}
+
+
+/*검색창*/
+.introSearch{position: relative; float: left; margin-left: 50px;}
+
+.introSearch fieldset{width: 390px; height: 50px; border: 2px solid #e76708; padding:3px 0 0 5px;}
+.input_search{width: 330px; height: 46px; line-height: 46px; padding-left: 10px; border: none;}
+input[type="image"]{position: absolute; top: 15px; right: 10px;}
+
+/*추천검색어*/
+.introKeywords{float: right; width: 390px;}
+.introKeywords dl{line-height: 60px;}
+.introKeywords dt{float: left; width: 68px; color: #f4be38; text-align: center; background: url(../images/keywords_bg.png) no-repeat 0 17px;}
+.introKeywords dd{float: left; padding-left: 5px;}
+.introKeywords ul{float: right; line-height: 25px;}
+
+/*날씨*/
+.introKeywords .weather{padding-left: 20px; color: #298a36; background: url(../images/i_weather.png) no-repeat 0 0px;}
+.introKeywords .dust{padding-left: 20px; color: #e76708; background: url(../images/i_dust.png) no-repeat 0 0px;}
+
+
+
+
+/*메인배너*/
+.visual{position: relative; overflow: hidden; width: 1200px; height: 360px; margin: 0 auto;}
+
+.visualwrap{position: relative; float: left; width: 1020px; height: 360px;}
+.visualimgWrap{position: relative; overflow: hidden; width: 1020px; height: 360px;}
+.visualimg{position: absolute; top: 0; left: 0; width: 2040px; height: 360px;}
+.visualimg li{float: left; width: 1020px; height: 360px;}
+/*배너 하단 버튼*/
+.visualNumBtn{position: absolute; bottom: 5px; left: 430px;}
+.visualNumBtn li{float: left; margin-left: 10px; background: url(../images/allicon.png) no-repeat -23px -80px;}
+.visualNumBtn li a{display: block; width: 14px; height: 14px; font-size: 0;}
+.visualNumBtn .on{background-position: 0 -80px;}
+
+.visualBtn{position: absolute; bottom: 0; left: 490px;}
+.visualBtn li{float: left; width: 30px; height: 30px; margin-left: -2px; background: url(../images/allicon.png) no-repeat;}
+.visualBtn li a{display: block; width: 30px; height: 31px; font-size: 0;}
+.visualBtn .visualBtn_prev{background-position: 0 0;}
+.visualBtn .visualBtn_stop{background-position: -41px 0;}
+.visualBtn .visualBtn_play{background-position: -161px 0;}
+.visualBtn .visualBtn_nxt{background-position: -81px 0;}
+
+
+/*바로가기메뉴*/
+.quickService{float: right; width: 180px; height: 360px; background: #0058aa;}
+.quickService li a{display: block; padding-left: 45px; color: #fff; font-size: 14px; line-height: 40px; background: url(../images/quick_bg.png) no-repeat 35px 20px;}
+.quickService li a:hover{color: #333; background: #fff;}
+
+
+/*새소식*/
+.cont_1{overflow: hidden; width: 1200px; height: 220px; margin: 30px auto;}
+.notice{position: relative; float: left; width: 420px; height: 220px; margin-right: 20px;}
+.noticeTitle{float: left;}
+.noticeT{display: block; width: 126px; height: 20px; padding: 10px 0; border-right: 1px solid #fff; line-height: 20px; text-align: center; background: #f1f1f1;}
+.noticeT.on{}
+.noticeT.on, .noticeT:hover, .userT h3 a.on, .userT h3 a:hover{border-right: 1px solid #f1f1f1; color: #0058aa; background: #fff;}
+.noticeWrap{position: absolute; top: 40px; left: 0; width: 420px; line-height: 36px;}
+
+.notice_subTitle{float: left;}
+
+.notice_subTitle span{display: inline-block; *display: inline; zoom: 1; width: 70px; text-align: center; color: red;}
+
+
+.notice_subTitle span.subTitle_b{color: #0058aa;}
+.notice_subTitle span.subTitle_g{color: #298a36;}
+.date{float: right;}
+
+
+.more{position: absolute; top: 0; right: 0; display: block; width: 40px; height: 20px; padding: 10px 0; border-left: 1px solid #fff; text-align: center; background: #f1f1f1;}
+.more:hover{background: #fff;}
+
+
+
+/*미디어로 보는 관악이야기*/
+.mediawrap{position: relative; overflow: hidden; float: right; width: 760px; height: 220px;}
+.mediawrap h3{padding: 10px 0;}
+.mediacontWrap{overflow: hidden;}
+.mediacont{float: left; width: 240px; margin-left: 20px;}
+.mediacont:first-child{margin-left: 0;}
+.mediacont span{display: block; margin-top: 5px;}
+.mediaMoreBtn{position: absolute; top: 0; right: 0; padding-right: 25px; background: url(../images/plus.png) no-repeat 94% 8px #f1f1f1;}
+.mediaMoreBtn a{display: block; padding: 8px;}
+
+
+
+/*중앙 바로가기메뉴*/
+.ContMenuBarWrap{width: 100%; border-top: 1px solid #ff8900;}
+.ContMenuBar{width: 1200px; height: 90px; margin: 30px auto;}
+.menuBar{overflow: hidden;}
+.menuBar li{float: left; width: 85px; margin-left: 32px; text-align: center; background: url(../images/menu_icon.gif) no-repeat;}
+.menuBar a{display: block; width: 85px; padding-top: 70px;}
+.menuBar li.MenuBar_01{background-position: 0 0;}
+.menuBar li.MenuBar_02{background-position: -106px 0;}
+.menuBar li.MenuBar_03{background-position: -212px 0;}
+.menuBar li.MenuBar_04{background-position: -318px 0;}
+.menuBar li.MenuBar_05{background-position: -424px 0;}
+.menuBar li.MenuBar_06{background-position: -530px 0;}
+.menuBar li.MenuBar_07{background-position: -636px 0;}
+.menuBar li.MenuBar_08{background-position: -742px 0;}
+.menuBar li.MenuBar_09{background-position: -848px 0;}
+.menuBar li.MenuBar_10{background-position: -954px 0;}
+.menuBar li.MenuBar_01:hover{background-position: 0 -86px;}
+.menuBar li.MenuBar_02:hover{background-position: -106px -86px;}
+.menuBar li.MenuBar_03:hover{background-position: -212px -86px;}
+.menuBar li.MenuBar_04:hover{background-position: -318px -86px;}
+.menuBar li.MenuBar_05:hover{background-position: -424px -86px;}
+.menuBar li.MenuBar_06:hover{background-position: -530px -86px;}
+.menuBar li.MenuBar_07:hover{background-position: -636px -86px;}
+.menuBar li.MenuBar_08:hover{background-position: -742px -86px;}
+.menuBar li.MenuBar_09:hover{background-position: -848px -86px;}
+.menuBar li.MenuBar_10:hover{background-position: -954px -86px;}
+
+
+
+
+
+.cont_2{overflow: hidden; width: 1200px; height: 240px; margin: 0 auto;}
+
+
+/*구청장 인사말*/
+.ceo{position: relative; float: left; width: 262px; height: 240px; background: url(../images/ceo.gif) no-repeat;}
+.ceotext{padding: 20px 20px 0 0; text-align: right;}
+.ceo h3{margin-bottom: 20px; font-size: 16px; line-height: 30px;}
+.ceo h3 + span {display: inline-block; *display: inline; zoom: 1; height: 21px; padding-right: 25px; background:url(../images/ceo_btn.png) no-repeat 98% 0;}
+.ceoName{display: block; font-size: 21px;}
+
+.ceoMenu{position: absolute; bottom: 0; left: 0; width: 100%; height: 40px; text-align: center; background: #0058aa;}
+.ceoMenu li{float: left; width: 33%; border-left: 1px solid #d9d9d9;}
+.ceoMenu li:first-child{border: none;}
+.ceoMenu a{display: block; line-height: 40px; color: #fff;}
+
+
+/*열린혁신*/
+.openNews{float: left; width: 284px; height: 240px; font-size: 14px; background: url(../images/open_bg.jpg) no-repeat;}
+.openNews span{color: #e76708;}
+.openNews h3{padding: 45px 0 20px 60px; font-size: 21px;}
+.openNews li{background: url(../images/bg_list.png) no-repeat 0 12px; margin-left: 80px; padding-left: 8px; line-height: 28px;}
+
+
+/*예약서비스*/
+.bike{float: left; width: 284px; height: 240px; background: url(../images/bike_bg.jpg) no-repeat;}
+.bike a{display: block; height: 210px; padding-top: 30px; text-align: center; font-size: 15px; line-height: 25px;}
+.bike span{font-size: 21px; line-height: 30px;}
+
+
+/*팝업*/
+.popup{position: relative; float: left; width: 370px;}
+.popup h3{height: 40px; padding-left: 10px; line-height: 40px; background: #f1f1f1;}
+.popupimg li{position: absolute; top: 40px; left: 0;}
+.popupBtn{position: absolute; top: 12px; right: 5px; overflow: hidden;}
+.popupBtn li{float: left; width: 10px; height: 20px; margin-right: 8px; font-size: 0; background: url(../images/allicon.png) no-repeat;}
+.popupBtn a{display: block; padding: 10px 8px;}
+.popupBtn .popup_prev{background-position: 0 -110px;}
+.popupBtn .popup_stop{background-position: -15px -110px;}
+.popupBtn .popup_play{background-position: -47px -110px;}
+.popupBtn .popup_nxt{background-position: -31px -110px;}
+
+.cont_3{width: 1200px; height: 196px; margin: 30px auto 0 auto;}
+.conut_N{position: absolute; top: 12px; right: 90px;}
+.count{font-weight: bold;}
+
+
+/*이달의 행사*/
+.event{position: relative; float: left; width: 280px; height: 196px; font-size: 16px; background: url(../images/event.gif) no-repeat;}
+.event strong{display: block; margin-top: 20px; text-align: center;}
+.event .event_btn{display: block; width: 85px; height: 33px; margin: 0 auto; padding-right: 38px; line-height: 33px; background: url(../images/event_btn.png) no-repeat right 0;}
+
+
+/*관악구 구정 소식지*/
+.newsAlert{float: left; width: 294px; height: 196px; line-height: 30px; margin: 0 30px 0 12px; background: url(../images/newsalert.gif) no-repeat 0 0;}
+.newsAlert p{padding: 25px;}
+.newsAlert p a{display: block; background: url(../images/newsalert_btn.png) no-repeat 70px bottom;}
+.alertTitle{display: block; margin-bottom: 15px; font-size: 21px;}
+
+
+/*관악소리*/
+.subs_box{position: relative; float: left; width: 286px; height: 196px;}
+.subs_box h3{padding: 15px;}
+.gwanaksori{margin-right: 12px; background: url(../images/gwanaksori.jpg) no-repeat;}
+
+
+/*해피매거진*/
+.magazine{background: url(../images/magazine.jpg) no-repeat; color: #fff;}
+.btn_over{text-align: center;}
+.btn_over a{display: inline-block; *display: inline; zoom: 1; width: 80px; height: 30px; margin-top: 16px; font-size: 0; background: url(../images/allicon.png) no-repeat;}
+.btn_over .subscribe{background-position: -85px -40px;}
+.btn_over .subscribe:hover{background-position: 0 -40px;}
+.btn_over .read{background-position: -255px -40px;}
+.btn_over .read:hover{background-position: -170px -40px;}
+
+
+
+.cont_4{width: 1200px; height: 260px; margin: 30px auto;}
+
+
+/*SNS 콘텐츠*/
+.socialContent{position: relative; overflow: hidden; float: left; width: 585px; height: 260px; margin-right: 30px;}
+.socialList{position: relative; width: 100%; overflow: hidden; height: 260px;}
+.socialList > li{float: left; width: 87px; height: 25px; margin-right: 25px;}
+.socialList > li:first-child{margin-left: 25px;}
+.socialLogo{display: block; background: url(../images/social.gif) no-repeat;}
+.socialLogo{display: block; width: 87px; height: 25px; font-size: 0;}
+.facebook.socialLogo{background-position: -10px -10px;}
+.naverblog.socialLogo{background-position: -108px -10px;}
+.twitter.socialLogo{background-position: -206px -10px;}
+.instagram.socialLogo{background-position: -304px -10px;}
+.youtube.socialLogo{background-position: -402px -10px;}
+.facebook.socialLogo:hover, .socialOn .facebook.socialLogo{background-position: -10px -45px;}
+.naverblog.socialLogo:hover, .socialOn .naverblog.socialLogo{background-position: -108px -45px;}
+.twitter.socialLogo:hover{background-position: -206px -45px;}
+.instagram.socialLogo:hover{background-position: -304px -45px;}
+.youtube.socialLogo:hover{background-position: -402px -45px;}
+
+.socialCont{position: absolute; top: 40px; left: 0; overflow: hidden; width: 585px; height: 220px; display: none;}
+.socialOn .socialCont{display: block;}
+.socialContWrap{position: absolute; top: 0; left: 0; width: 1172px; height: 220px;}
+.socialCont dl{position: relative; float: left; width: 245px; height: 198px; margin: 0 13px; padding: 10px; border: 1px solid #d9d9d9; line-height: 23px;}
+.socialCont dt{margin-bottom: 10px; padding-left: 29px; line-height: 25px;}
+.socialCont .socialT_f{background: url(../images/facebook.gif) no-repeat 0 0;}
+.socialCont .socialT_b{background: url(../images/blog.gif) no-repeat 0 0;}
+.socialCont dd{font-size: 12px;}
+.socialDate{position: absolute; bottom: 10px; right: 10px;}
+/*btn*/
+.social_btn_wrap{position: absolute; top: 100px; width: 585px; height: 14px;}
+.social_btn_wrap a{display: block; width: 10px; height: 14px;}
+.social_prev_btn, .social_nxt_btn{position: absolute; font-size: 0; background: url(../images/allicon.png) no-repeat;}
+.socialCont .social_prev_btn{left: 0; background-position: 0 -110px;}
+.socialCont .social_nxt_btn{right: 0; background-position: -31px -110px;}
+
+
+
+/*구민 사업자*/
+.userLinkwrap{position: relative; float: left; width: 583px; height: 258px; border: 1px solid #d9d9d9;}
+.userLink{overflow: hidden; width: 583px;}
+.userT{float: left; width: 291px; height: 40px; border-left: 1px solid #fff; text-align: center; line-height: 40px; font-size: 14px; background: #f1f1f1;}
+.userT h3 a{display: block; width: 291px; height: 40px;}
+.userT:first-child{border-left: none;}
+.userT > a:hover{border-left: 1px solid #d9d9d9; background: #fff; color: #0058aa;}
+.userT > a:first-child:hover{border: none;}
+.habitantCont{position: absolute; top: 40px; left: 0; width: 543px; height: 163px; padding: 35px 20px 20px 20px;}
+.habitant li{float: left; width: 150px; height: 35px; margin-left: 20px; padding-left: 10px; text-align: left; font-size: 13px; background: url(../images/bg_list.png) no-repeat 3px 18px;}
+.habitant img{padding-left: 3px;}
+
+
+
+/*하단 롤링 배너*/
+.bannerWrap{width: 100%; padding: 20px 0; border-top: 1px solid #d9d9d9;}
+.bannerW{overflow: hidden; width: 1200px; margin: 0 auto;}
+.bannerL{position: relative; float: left; overflow: hidden; width: 988px; height: 36px;}
+.bannerList{position: absolute; top: 0; left: 0; width: 2000px; height: 36px;}
+.bannerList li{float: left; width: 124px; height: 36px; margin-right: 20px;}
+.bannerBtnWrap{float: right; overflow: hidden; padding-top: 3px; width: 212px;}
+.bannerBtn{overflow: hidden; width: 120px; margin: 0 auto;}
+.bannerBtn li{float: left;}
+.bannerBtn a{display: block; width: 30px; height: 31px; background: url(../images/allicon.png) no-repeat;}
+.bannerBtn .banner_prev{background-position: 0 0;}
+.bannerBtn .banner_stop{background-position: -40px 0;}
+.bannerBtn .banner_play{display: none; background-position: -160px 0;}
+.bannerBtn .banner_nxt{background-position: -80px 0;}
+.bannerBtn .banner_list{background-position: -121px 0;}
