@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+#wrapper{position: relative; width: 100%;}
+.headerWrap{position: relative; width: 100%; height: 120px; z-index: 200;}
+.header{position: relative; height: 120px; margin: 0 auto;}
+.header h1{position: absolute; left: 2%; top: 38px;}
+.gnb{float: left; margin-left: 21%; width: 780px; text-align: center;}
+.gnbDep_1{width: 100%;}
+.gnbDep_1 > li{position: relative; float: left; width: 16.6%; line-height: 120px; font-size: 1rem;}
+.gnbDep_1 li a{display: block;}
+.gnbDep_1 > li > a:after{content: ''; position: absolute; top: 80px; left: 0; width: 100%; height: 0; background: #a50034; transition: 0.2s; opacity: 0;}
+.gnbDep_1 > li > a:hover{color: #a50034; font-weight: 500;}
+.gnbDep_1 > li > a:hover:after{top: 115px; height: 5px; opacity: 1;}
+
+.gnbDep_2{padding-top: 20px; display: none;}
+.gnbDep_2 li{line-height: 3rem; font-size: 0.9rem;}
+.gnbDep_2 li a{position: relative; display: inline-block; color: #a50034;}
+.gnbDep_2 li a:after{content: ''; position: absolute; bottom: 0; left: 0; width: 0; height: 1px; background: #a50034; transition: 0.5s;}
+.gnbDep_2 li a:hover:after{width: 100%;}
+
+.headerfrm{position: absolute; top: 40px; right: 2%;}
+.lang{border: none; border-bottom: 1px solid #a50034;}
+.goBtn{padding: 0; border: none; background: #fff;}
+.goBtn span{color: #a50034;}
+.lang, .goBtn{vertical-align: middle;}
+button{cursor: pointer;}
+
+.searchWrap{position: absolute; top: 120px; left: 0; width: 100%; height: 120px; z-index: 9999; display: none;}
+.searchWrap fieldset{position: relative; width: 100%; height: 120px; padding: 0 10%; line-height: 120px; background: #f1f1f1;}
+.searchWrap input{width: 91%; height: 30px; margin-right: 4%; padding-left: 3%; border: none; border-bottom: 1px solid #a50034; line-height: 30px; background: #f1f1f1;}
+.searchBtn{position: relative; width: 6px; height: 1px; border: none; font-size: 0; border-top: 2px solid #a50034; transform: rotate(45deg);}
+.searchBtn:after{content: ''; position: absolute; top: -8px; left: -14px; width: 12px; height: 12px; border-radius: 50%; border: 2px solid #a50034;}
+
+/*gnb 배경*/
+.gnbBg{position: absolute; top: 120px; left: 0; width: 100%; height: 500px; border-top: 1px solid #a50034; background: #fff; z-index: -1;/* display: none;*/}
+
+/*반투명 배경처리*/
+.blackBg{position: absolute; top: 120px; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 100; display: none;}

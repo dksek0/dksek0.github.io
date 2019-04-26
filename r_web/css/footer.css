@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+.footerWrap{position: relative; width: 100%; margin-top: 70px; padding: 50px 0; text-align: center; color: #fff; background: #6b6b6b; font-size: 1rem;}
+.footerWrap a{color: #fff;}
+.footerMenu{position: relative;}
+.footer li{position: relative; display: inline-block; margin: 0 1%; padding-left: 8px; line-height: 2;}
+.footer li:after{content: ''; position: absolute; top: 12px; left: 0; width: 2px; height: 5px; background: #f8427b;}
+.footer li a:hover, .footer li a:active, .footer li a:focus{text-decoration: underline;}
+.address{padding: 20px 0;}
+.footerLogo{display: inline-block;}
+.copyright{display: block; padding-top: 20px;}
+
+/*맨 위로 바로가기 버튼*/
+.topBtn{display: block; position: absolute; top: -50%; left: 50%; transform: translate(-50%, 0); width: 28px; height: 48px; font-size: 1rem;}
+.topBtn span{display: inline-block; position: relative; width: 1px; height: 15px; background: #fff;}
+.topBtn span:before{content: ''; position: absolute; top: 2px; left: -1px; width: 8px; height: 1px; background: #fff; transform: rotate(55deg);}
+.topBtn span:after{content: ''; position: absolute; top: 2px; right: -1px; width: 8px; height: 1px; background: #fff; transform: rotate(-55deg);}
+
+.topBtn:hover{font-weight: 600;}
+.topBtn, .topBtn span{vertical-align: middle;}
+
+.topBtnBg{display: inline-block; position: absolute; top: -55%; left: 50%; transform: translate(-50%, 0); width: 80px; height: 80px; border: 1px solid #6b6b6b; border-radius: 50%; background: #6b6b6b; z-index: -1;}
