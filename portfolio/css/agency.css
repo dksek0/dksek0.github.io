@@ -225,10 +225,10 @@ header.masthead {
   text-align: center;
   background-image: url(../images/header.jpg);
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center center;
   background-size: cover;
-    position: relative;
+  position: relative;
 }
 
 header.masthead .intro-text {
