@@ -21,17 +21,22 @@ ul, li {
 
 a {
   color: #edac0c;
-  text-decoration: underline;
 }
 
 a:hover {
   color: #fec503;
+}
+
+.link {
+  text-decoration: underline;
+}
+.link:hover {
   font-weight: bold;
 }
-a.source {
+.link.source {
   color: #2b2041;
 }
-a.source:hover {
+.link.source:hover {
   color: ##212041;
 }
 
