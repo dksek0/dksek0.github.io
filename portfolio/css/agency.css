@@ -21,11 +21,18 @@ ul, li {
 
 a {
   color: #edac0c;
+  text-decoration: underline;
 }
 
 a:hover {
   color: #fec503;
-  text-decoration: none;
+  font-weight: bold;
+}
+a.source {
+  color: #2b2041;
+}
+a.source:hover {
+  color: ##212041;
 }
 
 h1,
@@ -222,6 +229,7 @@ img::-moz-selection {
 }
 
 header.masthead {
+  min-height: 100vh;
   text-align: center;
   background-image: url(../images/header.jpg);
   background-repeat: no-repeat;
@@ -239,7 +247,6 @@ header.masthead .intro-text {
 header.masthead .intro-text .intro-lead-in {
   font-size: 22px;
   font-style: italic;
-  margin-bottom: 155px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   color: #fff;
   position: relative;
@@ -265,7 +272,7 @@ header.masthead .intro-text .intro-heading {
     position: relative;
     font-size: 40px;
     font-style: italic;
-    margin-bottom: 400px;
+    margin-bottom: 200px;
     font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     color: #fff;
     z-index: 999;
