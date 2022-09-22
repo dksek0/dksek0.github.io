@@ -72,6 +72,7 @@ section h3.section-subheading {
 .ability{margin-top: 80px;}
 .timeline > li span{display: block; font-weight: bold; font-family: 'Droid Serif'; float: left; width: 140px; font-size: 1.1em;}
 .timeline > li p{overflow: hidden;}
+.timeline b {color: #000;}
 
 .list1, .list2{overflow: hidden;}
 .list1 li{position: relative; float: left; padding-right: 22px;}
